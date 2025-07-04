@@ -1,2 +1,12 @@
 [build]
-  functions = "functions"
+command = "npm run build"
+functions = "functions"      # 서버리스 함수 폴더 경로
+publish = "dist"             # 정적 파일 빌드 결과 폴더
+
+[dev]
+framework = "#custom"
+command = "npm run dev"
+targetPort = 8080
+port = 8888
+publish = "dist"
+autoLaunch = false
