@@ -8,8 +8,8 @@
     "last 2 versions"
   ],
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
-    "dev:netlify": "netlify dev",
+    "dev:webpack": "webpack-dev-server --mode development",
+    "dev": "netlify dev",
     "build": "NODE_OPTIONS='--openssl-legacy-provider' webpack --mode production",
     "lint": "eslint --fix --ext .js,.vue"
   },
